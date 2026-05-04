@@ -1,0 +1,36 @@
+@use "../helpers" as *;
+
+.yt-_modal {
+    --offset: 1rem;
+
+    max-width: 1200px;
+    width: 95%;
+    border-radius: var(--border-radius-l);
+
+    @include mobile {
+        --closeButtonSize: 32px;
+        --offset: 0.5rem;
+    }
+
+    &__wrapper {
+        height: 100%;
+    }
+
+    &__body {
+        padding-bottom: 56.25%;
+    }
+
+    iframe {
+        position: absolute;
+        inset: var(--offset);
+        bottom: 32px;
+        width: 95%;
+        height: 95%;
+        border-radius: var(--border-radius-l);
+    }
+
+    &__close-button {
+        right: 0;
+        top: 0;
+    }
+}

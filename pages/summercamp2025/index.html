@@ -1,0 +1,919 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SUPER CAMP 2024</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="./css/camp.css?v=1" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();
+    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+    ym(93280561, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true,
+         webvisor:true
+    });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/93280561" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+</head>
+
+<body class="bg">
+    <nav class="navbar navbar-dark navbar-expand-lg nav-bg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"><img src="/images/logowhitebackground-.png" class="img-fluid" style="max-width: 115px;" /></a>
+            <a href="/supercamp2024/" class="nav-link nav-item" style="color:rgba(255, 255, 255, 0.55)">ЗАГОРОДНЫЙ Camp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#program">Программа</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#shifts">Смены</a>
+                    </li>
+                    <div class="p-1"></div>
+                    <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#bookModal">
+                        Забронировать
+                    </button>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center">
+        <div class="row align-items-center mt-4">
+            <div class="col">
+                <h1>Каникулярный кэмп</h1>
+                <p class="subtitle">в SuperMom</p>
+                <p class="subtitle">для детей 6-12 лет</p>
+            </div>
+
+            <section id="headliner" class="mt-3">
+                <h3 class="purple-bg">Интересно, насыщенно, спортивно проведем лето без гаджетов!</h3>
+                <img src="images/kids-running.jpeg" width="100%">
+            </section>
+        </div>
+
+        <section id="program" class="mb-5">
+
+            <h2 class="section-title">каждый день в каникулярном кэмпе:</h2>
+            <div class="row">
+                <div class="col-12 col-lg-7">
+                    <ul class="stars p-3">
+                        <li>Увлекательные события</li>
+                        <li>Мастер-классы</li>
+                        <li>Игры и квесты</li>
+                        <li>Прогулки и экскурсии</li>
+                        <li>Творческие занятия</li>
+                        <li>Много спорта и, конечно, АНГЛИЙСКОГО!</li>
+                    </ul>
+                </div>
+                <div class="col-5 d-none d-lg-block">
+                    <img src="images/soap.jpg" id="soap">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-none d-lg-block">
+                    <img src="images/sport1.jpg" id="sport1">
+                </div>
+                <div class="col d-none d-lg-block">
+                    <img src="images/lesson.JPG" id="lesson">
+                </div>
+                <div class="col d-none d-lg-block">
+                    <img src="images/sport2.jpeg" id="sport2">
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col-12 d-block d-lg-none">
+                    <div id="carouselExampleControls" class="carousel slide px-3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/soap.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/lesson.JPG" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/sport1.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/sport2.jpeg" class="d-block w-100">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!--<div class="col-10 offset-1 mt-4">
+                    <div class="alert alert-light">Преодоление языкового барьера, много творчества, спорта и веселья!
+                    </div>
+                </div>-->
+
+            </div>
+
+        </section>
+    </div>
+    <section>
+        <div class="waves-top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 84.94" preserveAspectRatio="none">
+                <path
+                    d="M0,0V72.94c14.46,5.89,32.38,10.5,54.52.26,110.25-51,120.51,23.71,192.6-4.3,144.73-56.23,154.37,49.44,246.71,4.64C637,4.05,622.19,124.16,757.29,66.21c93-39.91,108.38,54.92,242.71-8.25V0Z"
+                    style="fill-rule:evenodd;opacity:0.33"></path>
+                <path
+                    d="M0,0V52.83c131.11,59.9,147-32.91,239.24,6.65,135.09,58,120.24-62.16,263.46,7.34,92.33,44.8,102-60.88,246.71-4.64,72.1,28,82.35-46.71,192.6,4.3,23.95,11.08,43,4.78,58-1.72V0Z"
+                    style="fill-rule:evenodd;opacity:0.66"></path>
+                <path
+                    d="M0,0V24.26c15.6,6.95,35.77,15.41,61.78,3.38,110.25-51,120.51,23.71,192.6-4.3C399.11-32.89,408.75,72.79,501.08,28,644.3-41.51,629.45,78.6,764.54,20.65,855.87-18.53,872.34,72.12,1000,15.7V0Z"
+                    style="fill-rule:evenodd"></path>
+            </svg>
+        </div>
+    </section>
+    <section id="location">
+        <div class="container">
+            <section id="shifts" class="mt-0">
+
+                <h2 class="section-title mb-4">Тематические смены</h2>
+                <div class="d-flex justify-content-center mb-2 subtitle">Нажми и узнай подробнее о каждой смене</div>
+
+                <div class="d-flex justify-content-center flex-wrap">
+                    
+                    <a class="shift-lightbox" data-bs-toggle="modal" data-bs-target="#smena1">
+                    <div class="shift2">
+                        <div class="shift-title">
+                            Faster! Higher! Stronger!
+                        </div>
+                        <div class="shift-days">
+                            3 - 14 июня
+                        </div>
+                        <div class="shift-description">
+                            Спортивная
+                        </div>
+                    </div>
+                </a>
+
+                <a class="shift-lightbox" data-bs-toggle="modal" data-bs-target="#smena2">
+                <div class="shift2">
+                        <div class="shift-title">
+                            Art Camp
+                        </div>
+                        <div class="shift-days">
+                            17 - 28 июня
+                        </div>
+                        <div class="shift-description">
+                            Творческая смена
+                        </div>
+                    </div>
+</a>
+
+
+<a class="shift-lightbox" data-bs-toggle="modal" data-bs-target="#smena3">
+                    <div class="shift2">
+                        <div class="shift-title">
+                            IT and Technology Camp
+                        </div>
+                        <div class="shift-days">
+                            1 - 12 июля
+                        </div>
+                        <div class="shift-description">
+                            Технологическая
+                        </div>
+                    </div>
+</a>
+                    
+
+<a class="shift-lightbox" data-bs-toggle="modal" data-bs-target="#smena4">
+                    <div class="shift2">
+                        <div class="shift-title">
+                            Sport and Dance
+                        </div>
+                        <div class="shift-days">
+                            15 - 26 июля
+                        </div>
+                        <div class="shift-description">
+                            Спортивно-танцевальная
+                        </div>
+                    </div>
+</a>
+
+
+<a class="shift-lightbox" data-bs-toggle="modal" data-bs-target="#smena5">
+                    <div class="shift2">
+                        <div class="shift-title">
+                            Sherlock’s secrets
+                        </div>
+                        <div class="shift-days">
+                            29 июля - 9 августа
+                        </div>
+                        <div class="shift-description">
+                            Детективная
+                        </div>
+                    </div>
+</a>
+<a class="shift-lightbox" data-bs-toggle="modal" data-bs-target="#smena6">
+                    <div class="shift2">
+                        <div class="shift-title">
+                            Sport and Games
+                        </div>
+                        <div class="shift-days">
+                            12 - 23 августа
+                        </div>
+                        <div class="shift-description">
+                            Спортивно-игровая
+                        </div>
+                    </div>
+</a>
+
+
+                </div>
+
+                <div class="col-10 offset-1 mt-4 mb-3">
+                    <div class="alert alert-light">Тематические смены на любой вкус!
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+
+    </section>
+    <section>
+        <div class="waves-bottom">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 84.94" preserveAspectRatio="none">
+                <path
+                    d="M0,0V72.94c14.46,5.89,32.38,10.5,54.52.26,110.25-51,120.51,23.71,192.6-4.3,144.73-56.23,154.37,49.44,246.71,4.64C637,4.05,622.19,124.16,757.29,66.21c93-39.91,108.38,54.92,242.71-8.25V0Z"
+                    style="fill-rule:evenodd;opacity:0.33"></path>
+                <path
+                    d="M0,0V52.83c131.11,59.9,147-32.91,239.24,6.65,135.09,58,120.24-62.16,263.46,7.34,92.33,44.8,102-60.88,246.71-4.64,72.1,28,82.35-46.71,192.6,4.3,23.95,11.08,43,4.78,58-1.72V0Z"
+                    style="fill-rule:evenodd;opacity:0.66"></path>
+                <path
+                    d="M0,0V24.26c15.6,6.95,35.77,15.41,61.78,3.38,110.25-51,120.51,23.71,192.6-4.3C399.11-32.89,408.75,72.79,501.08,28,644.3-41.51,629.45,78.6,764.54,20.65,855.87-18.53,872.34,72.12,1000,15.7V0Z"
+                    style="fill-rule:evenodd"></path>
+            </svg>
+        </div>
+    </section>
+    <div class="container text-center">
+
+
+
+        <section id="features" class="mb-5">
+
+            <h2 class="section-title">Один день из жизни нашего кэмпа<br/>
+                (распорядок дня на примере Творческой смены)
+            </h2>
+            <div class="row">
+                <div class="col-12">
+                    <ul class="stars pt-3">
+                        <li>09:00 встреча</li>
+                        <li>09:30 зарядка</li>
+                        <li>10:00 завтрак</li>
+                        <li>10:30 Дискуссионный клуб. Сказки Англии</li>
+                        <li>11:15 Квест «Путь героя» на свежем воздухе</li>
+                        <li>13:00 Обед</li>
+                        <li>13:45 Теоретическое занятие «Путь героя в литературе. Закон построения истории»</li>
+                        <li>14:30 Написание сюжета истории</li>
+                        <li>15:15 Литературный клуб. Делимся историями in English</li>
+                        <li>16:00 Перекус</li>
+                        <li>16:30 Игры на командообразование in English</li>
+                        <li>17:00 Киноклуб in English</li>
+                        <li>17:30 Свечка (подведение итогов дня) in English</li>
+                    </ul>
+                </div>
+                <div class="col-10 offset-1">
+                    <div class="alert alert-light">
+                        Продажи каникулярных кэмпов уже стартовали. Успевайте забронировать!</div>
+                </div>
+                <div class="col-12">
+                    <h4>Стоимость 1 смены (2 недели) </h4>
+
+                    <p class="new-price">До 15 мая включительно: 20 500 руб.</p>
+                    <p class="new-price">После 15 мая: 25 000 руб.</p>
+                    <p>При бронировании от 2 смен или от 2 детей - 22500</p>
+
+
+
+
+
+     
+
+                    <!-- <p class="new-price" style="color: rgb(192,0,0)">До 14 апреля по раннему бронированию 17 500 руб.!</p> -->
+                    <p class="comment">*О текущих акциях узнавайте при бронировании</p>
+
+                </div>
+                <button class="btn btn-dark btn-lg" data-bs-toggle="modal"
+                    data-bs-target="#bookModal">Оставить заявку на каникулы 2024</button>
+
+                    <div class="mt-5">
+                        <img src="/images/tinkoff.png" class="img-fluid mb-3" alt=""/><br/>
+                        Возможность беспроцентной рассрочки. Узнайте подробности при бронировании
+                    </div>
+            </div>
+
+
+        </section>
+
+    </div>
+
+
+    <div class="modal fade" id="smena1" tabindex="-1" aria-labelledby="bookModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" id="modal-data">
+                <div class="form-wrapper">
+					<div id="form1-modal-call-wrapper">
+                <div class="modal-header" data-bs-theme="dark">
+                    <h5 class="modal-title" id="exampleModalLabel">Заполните заявку</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+<img src="images/3-14.jpeg" alt="" class="img-responsive"/>
+
+                    <form onsubmit="return true;" id="form1-modal-call" action="/handler.php" accept-charset="UTF-8" data-remote="true" method="post" data-reachGoal="true" data-reachGoal-id="93280561" data-reachGoal-name="uspeh">
+                        <div id="form1-modal-call-error-wrapper" class="mb-3"></div>
+                        <div class="mb-3">
+                            <label class="form-label">SUPER Смена</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="3-14 июня" id="shift2">
+                                <label class="form-check-label" for="shift2">
+                                    3 - 14 июня
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="17-28 июня" id="shift3">
+                                <label class="form-check-label" for="shift3">
+                                    17 - 28 июня
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="1-12 июля" id="shift4">
+                                <label class="form-check-label" for="shift4">
+                                    1 - 12 июля
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="15-26 июля" id="shift5">
+                                <label class="form-check-label" for="shift5">
+                                    15 - 26 июля
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="29 июля-9 августа" id="shift6">
+                                <label class="form-check-label" for="shift6">
+                                    29 июля - 9 августа
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="12-23 августа" id="shift6">
+                                <label class="form-check-label" for="shift6">
+                                    12 - 23 августа
+                                </label>
+                            </div>
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="fio" class="form-label">SUPER Родитель </label>
+                            <input type="text" name="fio" class="form-control" id="fio" placeholder="Ваше ФИО">
+                        </div>
+                        <div>
+                            <label for="phone" class="form-label">SUPER Телефон </label>
+                            <input type="tel" name="phone" class="form-control" id="phone" placeholder="Ваш замечательный телефон"
+                                required>
+                        </div>
+                        <div class="text-center mt-4">
+                            <div class="g-recaptcha" data-sitekey="6LeOrJYpAAAAAOwAx2x1fmwMtAKCJEJDlS7DOyuC"></div>
+                        </div>
+
+                    
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" name="form" value="summercamp2024">
+                    <button type="submit" class="btn btn-dark" data-loading-text="Отправка данных...">Отправить</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="smena2" tabindex="-1" aria-labelledby="bookModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" id="modal-data">
+                <div class="form-wrapper">
+					<div id="form2-modal-call-wrapper">
+                <div class="modal-header" data-bs-theme="dark">
+                    <h5 class="modal-title" id="exampleModalLabel">Заполните заявку</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+<img src="images/17-28.jpeg" alt="" class="img-responsive"/>
+
+                    <form onsubmit="return true;" id="form2-modal-call" action="/handler.php" accept-charset="UTF-8" data-remote="true" method="post" data-reachGoal="true" data-reachGoal-id="93280561" data-reachGoal-name="uspeh">
+                        <div id="form2-modal-call-error-wrapper" class="mb-3"></div>
+                        <div class="mb-3">
+                            <label class="form-label">SUPER Смена</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="3-14 июня" id="shift2">
+                                <label class="form-check-label" for="shift2">
+                                    3 - 14 июня
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="17-28 июня" id="shift3">
+                                <label class="form-check-label" for="shift3">
+                                    17 - 28 июня
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="1-12 июля" id="shift4">
+                                <label class="form-check-label" for="shift4">
+                                    1 - 12 июля
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="15-26 июля" id="shift5">
+                                <label class="form-check-label" for="shift5">
+                                    15 - 26 июля
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="29 июля-9 августа" id="shift6">
+                                <label class="form-check-label" for="shift6">
+                                    29 июля - 9 августа
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="12-23 августа" id="shift6">
+                                <label class="form-check-label" for="shift6">
+                                    12 - 23 августа
+                                </label>
+                            </div>
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="fio" class="form-label">SUPER Родитель </label>
+                            <input type="text" name="fio" class="form-control" id="fio" placeholder="Ваше ФИО">
+                        </div>
+                        <div>
+                            <label for="phone" class="form-label">SUPER Телефон </label>
+                            <input type="tel" name="phone" class="form-control" id="phone" placeholder="Ваш замечательный телефон"
+                                required>
+                        </div>
+                        <div class="text-center mt-4">
+                            <div class="g-recaptcha" data-sitekey="6LeOrJYpAAAAAOwAx2x1fmwMtAKCJEJDlS7DOyuC"></div>
+                        </div>
+
+                    
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" name="form" value="summercamp2024">
+                    <button type="submit" class="btn btn-dark" data-loading-text="Отправка данных...">Отправить</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="smena3" tabindex="-1" aria-labelledby="bookModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" id="modal-data">
+                <div class="form-wrapper">
+					<div id="form3-modal-call-wrapper">
+                <div class="modal-header" data-bs-theme="dark">
+                    <h5 class="modal-title" id="exampleModalLabel">Заполните заявку</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+<img src="images/1-12.jpeg" alt="" class="img-responsive"/>
+
+                    <form onsubmit="return true;" id="form3-modal-call" action="/handler.php" accept-charset="UTF-8" data-remote="true" method="post" data-reachGoal="true" data-reachGoal-id="93280561" data-reachGoal-name="uspeh">
+                        <div id="form3-modal-call-error-wrapper" class="mb-3"></div>
+                        <div class="mb-3">
+                            <label class="form-label">SUPER Смена</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="3-14 июня" id="shift2">
+                                <label class="form-check-label" for="shift2">
+                                    3 - 14 июня
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="17-28 июня" id="shift3">
+                                <label class="form-check-label" for="shift3">
+                                    17 - 28 июня
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="1-12 июля" id="shift4">
+                                <label class="form-check-label" for="shift4">
+                                    1 - 12 июля
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="15-26 июля" id="shift5">
+                                <label class="form-check-label" for="shift5">
+                                    15 - 26 июля
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="29 июля-9 августа" id="shift6">
+                                <label class="form-check-label" for="shift6">
+                                    29 июля - 9 августа
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="12-23 августа" id="shift6">
+                                <label class="form-check-label" for="shift6">
+                                    12 - 23 августа
+                                </label>
+                            </div>
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="fio" class="form-label">SUPER Родитель </label>
+                            <input type="text" name="fio" class="form-control" id="fio" placeholder="Ваше ФИО">
+                        </div>
+                        <div>
+                            <label for="phone" class="form-label">SUPER Телефон </label>
+                            <input type="tel" name="phone" class="form-control" id="phone" placeholder="Ваш замечательный телефон"
+                                required>
+                        </div>
+                        <div class="text-center mt-4">
+                            <div class="g-recaptcha" data-sitekey="6LeOrJYpAAAAAOwAx2x1fmwMtAKCJEJDlS7DOyuC"></div>
+                        </div>
+
+                    
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" name="form" value="summercamp2024">
+                    <button type="submit" class="btn btn-dark" data-loading-text="Отправка данных...">Отправить</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="smena4" tabindex="-1" aria-labelledby="bookModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" id="modal-data">
+                <div class="form-wrapper">
+					<div id="form4-modal-call-wrapper">
+                <div class="modal-header" data-bs-theme="dark">
+                    <h5 class="modal-title" id="exampleModalLabel">Заполните заявку</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+<img src="images/15-26.jpeg" alt="" class="img-responsive"/>
+
+                    <form onsubmit="return true;" id="form4-modal-call" action="/handler.php" accept-charset="UTF-8" data-remote="true" method="post" data-reachGoal="true" data-reachGoal-id="93280561" data-reachGoal-name="uspeh">
+                        <div id="form4-modal-call-error-wrapper" class="mb-3"></div>
+                        <div class="mb-3">
+                            <label class="form-label">SUPER Смена</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="3-14 июня" id="shift2">
+                                <label class="form-check-label" for="shift2">
+                                    3 - 14 июня
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="17-28 июня" id="shift3">
+                                <label class="form-check-label" for="shift3">
+                                    17 - 28 июня
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="1-12 июля" id="shift4">
+                                <label class="form-check-label" for="shift4">
+                                    1 - 12 июля
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="15-26 июля" id="shift5">
+                                <label class="form-check-label" for="shift5">
+                                    15 - 26 июля
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="29 июля-9 августа" id="shift6">
+                                <label class="form-check-label" for="shift6">
+                                    29 июля - 9 августа
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="12-23 августа" id="shift6">
+                                <label class="form-check-label" for="shift6">
+                                    12 - 23 августа
+                                </label>
+                            </div>
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="fio" class="form-label">SUPER Родитель </label>
+                            <input type="text" name="fio" class="form-control" id="fio" placeholder="Ваше ФИО">
+                        </div>
+                        <div>
+                            <label for="phone" class="form-label">SUPER Телефон </label>
+                            <input type="tel" name="phone" class="form-control" id="phone" placeholder="Ваш замечательный телефон"
+                                required>
+                        </div>
+                        <div class="text-center mt-4">
+                            <div class="g-recaptcha" data-sitekey="6LeOrJYpAAAAAOwAx2x1fmwMtAKCJEJDlS7DOyuC"></div>
+                        </div>
+
+                    
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" name="form" value="summercamp2024">
+                    <button type="submit" class="btn btn-dark" data-loading-text="Отправка данных...">Отправить</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="smena5" tabindex="-1" aria-labelledby="bookModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" id="modal-data">
+                <div class="form-wrapper">
+					<div id="form5-modal-call-wrapper">
+                <div class="modal-header" data-bs-theme="dark">
+                    <h5 class="modal-title" id="exampleModalLabel">Заполните заявку</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+<img src="images/29-9.jpeg" alt="" class="img-responsive"/>
+
+                    <form onsubmit="return true;" id="form5-modal-call" action="/handler.php" accept-charset="UTF-8" data-remote="true" method="post" data-reachGoal="true" data-reachGoal-id="93280561" data-reachGoal-name="uspeh">
+                        <div id="form5-modal-call-error-wrapper" class="mb-3"></div>
+                        <div class="mb-3">
+                            <label class="form-label">SUPER Смена</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="3-14 июня" id="shift2">
+                                <label class="form-check-label" for="shift2">
+                                    3 - 14 июня
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="17-28 июня" id="shift3">
+                                <label class="form-check-label" for="shift3">
+                                    17 - 28 июня
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="1-12 июля" id="shift4">
+                                <label class="form-check-label" for="shift4">
+                                    1 - 12 июля
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="15-26 июля" id="shift5">
+                                <label class="form-check-label" for="shift5">
+                                    15 - 26 июля
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="29 июля-9 августа" id="shift6">
+                                <label class="form-check-label" for="shift6">
+                                    29 июля - 9 августа
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="12-23 августа" id="shift6">
+                                <label class="form-check-label" for="shift6">
+                                    12 - 23 августа
+                                </label>
+                            </div>
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="fio" class="form-label">SUPER Родитель </label>
+                            <input type="text" name="fio" class="form-control" id="fio" placeholder="Ваше ФИО">
+                        </div>
+                        <div>
+                            <label for="phone" class="form-label">SUPER Телефон </label>
+                            <input type="tel" name="phone" class="form-control" id="phone" placeholder="Ваш замечательный телефон"
+                                required>
+                        </div>
+                        <div class="text-center mt-4">
+                            <div class="g-recaptcha" data-sitekey="6LeOrJYpAAAAAOwAx2x1fmwMtAKCJEJDlS7DOyuC"></div>
+                        </div>
+
+                    
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" name="form" value="summercamp2024">
+                    <button type="submit" class="btn btn-dark" data-loading-text="Отправка данных...">Отправить</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="smena6" tabindex="-1" aria-labelledby="bookModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" id="modal-data">
+                <div class="form-wrapper">
+					<div id="form6-modal-call-wrapper">
+                <div class="modal-header" data-bs-theme="dark">
+                    <h5 class="modal-title" id="exampleModalLabel">Заполните заявку</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+<img src="images/12-23.jpeg" alt="" class="img-responsive"/>
+
+                    <form onsubmit="return true;" id="form6-modal-call" action="/handler.php" accept-charset="UTF-8" data-remote="true" method="post" data-reachGoal="true" data-reachGoal-id="93280561" data-reachGoal-name="uspeh">
+                        <div id="form6-modal-call-error-wrapper" class="mb-3"></div>
+                        <div class="mb-3">
+                            <label class="form-label">SUPER Смена</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="3-14 июня" id="shift2">
+                                <label class="form-check-label" for="shift2">
+                                    3 - 14 июня
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="17-28 июня" id="shift3">
+                                <label class="form-check-label" for="shift3">
+                                    17 - 28 июня
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="1-12 июля" id="shift4">
+                                <label class="form-check-label" for="shift4">
+                                    1 - 12 июля
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="15-26 июля" id="shift5">
+                                <label class="form-check-label" for="shift5">
+                                    15 - 26 июля
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="29 июля-9 августа" id="shift6">
+                                <label class="form-check-label" for="shift6">
+                                    29 июля - 9 августа
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="12-23 августа" id="shift6">
+                                <label class="form-check-label" for="shift6">
+                                    12 - 23 августа
+                                </label>
+                            </div>
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="fio" class="form-label">SUPER Родитель </label>
+                            <input type="text" name="fio" class="form-control" id="fio" placeholder="Ваше ФИО">
+                        </div>
+                        <div>
+                            <label for="phone" class="form-label">SUPER Телефон </label>
+                            <input type="tel" name="phone" class="form-control" id="phone" placeholder="Ваш замечательный телефон"
+                                required>
+                        </div>
+                        <div class="text-center mt-4">
+                            <div class="g-recaptcha" data-sitekey="6LeOrJYpAAAAAOwAx2x1fmwMtAKCJEJDlS7DOyuC"></div>
+                        </div>
+
+                    
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" name="form" value="summercamp2024">
+                    <button type="submit" class="btn btn-dark" data-loading-text="Отправка данных...">Отправить</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="bookModal" tabindex="-1" aria-labelledby="bookModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" id="modal-data">
+                <div class="form-wrapper">
+					<div id="form7-modal-call-wrapper">
+                <div class="modal-header" data-bs-theme="dark">
+                    <h5 class="modal-title" id="exampleModalLabel">Заполните заявку</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form onsubmit="return true;" id="form7-modal-call" action="/handler.php" accept-charset="UTF-8" data-remote="true" method="post" data-reachGoal="true" data-reachGoal-id="93280561" data-reachGoal-name="uspeh">
+                        <div id="form7-modal-call-error-wrapper" class="mb-3"></div>
+                        <div class="mb-3">
+                            <label class="form-label">SUPER Смена</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="3-14 июня" id="shift2">
+                                <label class="form-check-label" for="shift2">
+                                    3 - 14 июня
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="17-28 июня" id="shift3">
+                                <label class="form-check-label" for="shift3">
+                                    17 - 28 июня
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="1-12 июля" id="shift4">
+                                <label class="form-check-label" for="shift4">
+                                    1 - 12 июля
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="15-26 июля" id="shift5">
+                                <label class="form-check-label" for="shift5">
+                                    15 - 26 июля
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="29 июля-9 августа" id="shift6">
+                                <label class="form-check-label" for="shift6">
+                                    29 июля - 9 августа
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="smena[]" value="12-23 августа" id="shift6">
+                                <label class="form-check-label" for="shift6">
+                                    12 - 23 августа
+                                </label>
+                            </div>
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="fio" class="form-label">SUPER Родитель </label>
+                            <input type="text" name="fio" class="form-control" id="fio" placeholder="Ваше ФИО">
+                        </div>
+                        <div>
+                            <label for="phone" class="form-label">SUPER Телефон </label>
+                            <input type="tel" name="phone" class="form-control" id="phone" placeholder="Ваш замечательный телефон"
+                                required>
+                        </div>
+                        <div class="text-center mt-4">
+                            <div class="g-recaptcha" data-sitekey="6LeOrJYpAAAAAOwAx2x1fmwMtAKCJEJDlS7DOyuC"></div>
+                        </div>
+
+                    
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" name="form" value="summercamp2024">
+                    <button type="submit" class="btn btn-dark" data-loading-text="Отправка данных...">Отправить</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>    
+<script src="/js/jquery.mask.min.js"></script>
+<script src="/js/application.js?v=2"></script>
+<script>
+  $(document).ready(function(){
+  $('input[type="tel"]').mask('+7(000)000-00-00',{clearIfNotMatch: true,placeholder: "+7(___)___-__-__"});
+  });
+</script>
+<script type="text/javascript">(function(c,s,t,r,e,a,m){c[e]=c[e]||function(){(c[e].q=c[e].q||[]).push(arguments)},c[e].p=r,a=s.createElement(t),m=s.getElementsByTagName(t)[0],a.async=1,a.src=r,m.parentNode.insertBefore(a,m)})(window,document,'script','https://c.sberlead.ru/clickstream.bundle.js','csa');csa('init', {analyticsId: '58b7655d-5046-4c43-aeff-7538033add2c'}, true, true);</script>
+
+<a target="_blank" href="https://kidsincamp.ru/camp/supermom" style="display:flex;align-items: center;
+    justify-content: center;text-decoration:none;color:#000;width:100%;height:66px;border-radius:10px;padding:1px;border:0px;letter-spacing:normal;"><img alt="kidsincamp.ru" src="https://kidsincamp.ru/img/logo.jpeg" style="width:50px;height:48px;float:left;margin:8px;"><span style="margin-left:6px;margin-top:12px;font-family:'Roboto',Arial,sans-serif;font-size:14px;line-height:1.5;text-align:left;">Наш лагерь на <br> портале лагерей</span></a>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.camp-link {
+    font-size: 22px;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .footer-button {
+        max-width: 390px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 390px) {
+    .camp-link {
+        font-size: 18px;
+    }
+}
+
+#headliner iframe {
+    width: 100%;
+}
+
+img {
+    display: inline-block;
+}

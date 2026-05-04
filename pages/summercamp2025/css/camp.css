@@ -1,0 +1,423 @@
+@font-face {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("../fonts/Nunito-ExtraBold.ttf");
+}
+
+.bg {
+    background: linear-gradient(0.37turn, rgba(203, 78, 232, 1), rgba(255, 112, 0, 1), rgba(252, 231, 0, 1)) !important;
+    background-attachment: fixed, fixed !important;
+}
+
+.navbar-brand {
+    font-family: Nunito, sans-serif;
+}
+
+.nav-link {
+    font-family: Nunito, sans-serif;
+    text-align: right;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+.nav-bg {
+    background-color: #9265ce;
+}
+
+.btn-light {
+    font-family: Nunito;
+    color: #9265ce;
+}
+
+.btn-light:hover {
+    color: yellow;
+    background-color: #b285ee;
+}
+
+h1 {
+    font-family: Nunito, sans-serif;
+    color: white;
+}
+
+.subtitle {
+    color: white;
+    font-family: Nunito, sans-serif;
+    font-size: x-large;
+}
+
+h3,
+h2 {
+    font-family: Nunito, sans-serif;
+    color: white;
+    margin-bottom: 0;
+    padding: 0.5em;
+}
+
+.purple-bg {
+    background-color: purple;
+}
+
+#program {
+    margin-top: 4em;
+    background-color: #b285ee;
+    color: white;
+    font-family: Nunito, sans-serif;
+    border-radius: 2em;
+    box-shadow: 5px 5px 10px purple;
+    padding-bottom: 1em;
+}
+
+.section-title {
+    border-radius: 1em;
+    background-color: purple;
+}
+
+#program li {
+    font-size: larger;
+    text-align: left;
+    padding-left: 1em;
+    padding-bottom: 0.3em;
+}
+
+#program ul {
+    list-style: none;
+}
+
+#program ul li:before {
+    content: '✓';
+}
+
+.alert {
+    font-size: larger;
+}
+
+#soap {
+    width: 60%;
+    padding: 0.8em;
+    background-color: white;
+    transform: rotate(8deg);
+    position: relative;
+    top: 2.5em;
+    border: solid 1px darkgray;
+}
+
+#lesson {
+    width: 80%;
+    padding: 0.8em;
+    background-color: white;
+    transform: rotate(3deg);
+    position: relative;
+    top: 0;
+    border: solid 1px darkgray;
+}
+
+#sport1 {
+    width: 80%;
+    padding: 0.8em;
+    background-color: white;
+    transform: rotate(12deg);
+    position: relative;
+    top: 0.5em;
+    left: 2em;
+    border: solid 1px darkgray;
+}
+
+#sport2 {
+    width: 85%;
+    padding: 0.8em;
+    background-color: white;
+    transform: rotate(-4deg);
+    position: relative;
+    top: 0.5em;
+    right: 2em;
+    border: solid 1px darkgray;
+}
+
+.waves-top {
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    z-index: 2;
+    transform: rotate(180deg);
+    bottom: -1px;
+}
+
+.waves-bottom {
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    z-index: 2;
+}
+
+.waves-top>svg path,
+.waves-top>svg polygon {
+    fill: #9265ce;
+}
+
+.waves-bottom>svg path,
+.waves-bottom>svg polygon {
+    fill: #9265ce;
+}
+
+#location {
+    background-color: #9265ce;
+    color: white;
+    font-family: Nunito, sans-serif;
+    text-align: center;
+}
+
+#location p {
+    font-size: large;
+}
+
+#location img {
+    width: 100%;
+    background-color: white;
+    box-shadow: 5px 5px 5px purple;
+    margin-bottom: 1em;
+    border: solid 0.8em white;
+}
+
+#shifts {
+    margin-top: 4em;
+    background-color: rgb(187, 233, 187);
+    color: white;
+    font-family: Nunito, sans-serif;
+    border-radius: 2em;
+    box-shadow: 5px 5px 10px purple;
+    padding-bottom: 1em;
+}
+
+#shifts .section-title {
+    background-color: rgb(3, 109, 47);
+}
+
+.shift {
+    margin: 1em;
+    background-color: white;
+    border: 1px solid darkgreen;
+    width: 200px;
+    color: purple;
+    border-radius: 0.5em;
+    padding: 0;
+    box-shadow: 5px 5px 5px green;
+}
+
+.shift2 {
+    margin: 1em;
+    background-color: white;
+    border: 1px solid darkgreen;
+    width: 250px;
+    color: purple;
+    border-radius: 0.5em;
+    padding: 0;
+    box-shadow: 5px 5px 5px green;
+}
+
+.shift-title {
+    background-color: green;
+    color: white;
+    border-radius: 0.3em;
+    font-size: large;
+    padding: 0.5em;
+}
+
+.shift-days {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    ;
+    font-size: large;
+    color: darkgreen;
+}
+
+.shift-lightbox{
+    text-decoration: none;
+}
+
+
+.shift-description {
+    background-color: lightgray;
+    font-style: italic;
+    color: black;
+    border-radius: 0.5em;
+    padding: 0.25em;
+}
+
+#more {
+    margin-top: 4em;
+    background-color: rgb(139, 185, 255);
+    color: white;
+    font-family: Nunito, sans-serif;
+    border-radius: 2em;
+    box-shadow: 5px 5px 10px purple;
+    padding-bottom: 1em;
+}
+
+#more .section-title {
+    background-color: blue;
+}
+
+#more li {
+    font-size: larger;
+    text-align: left;
+    padding-left: 1em;
+    padding-bottom: 0.3em;
+}
+
+#more ul {
+    list-style: none;
+}
+
+#more ul li:before {
+    content: '✓ ';
+}
+
+#kayaks {
+    width: 50%;
+    padding: 0.8em;
+    background-color: white;
+    transform: rotate(-8deg);
+    position: relative;
+    top: 1.5em;
+    border: solid 1px darkgray;
+}
+
+#paperwork {
+    width: 70%;
+    padding: 0.8em;
+    background-color: white;
+    transform: rotate(-4deg);
+    position: relative;
+    top: -0.5em;
+    border: solid 1px darkgray;
+}
+
+#lasertag {
+    width: 70%;
+    padding: 0.8em;
+    background-color: white;
+    transform: rotate(9deg);
+    position: relative;
+    top: 0;
+    left: 2em;
+    border: solid 1px darkgray;
+}
+
+#teacher {
+    width: 70%;
+    padding: 0.8em;
+    background-color: white;
+    transform: rotate(5deg);
+    position: relative;
+    top: 0.5em;
+    right: 2em;
+    border: solid 1px darkgray;
+}
+
+#features {
+    margin-top: 4em;
+    background-color: rgb(228, 228, 228);
+    color: rgb(35, 35, 35);
+    font-family: Nunito, sans-serif;
+    border-radius: 2em;
+    box-shadow: 5px 5px 10px purple;
+    padding-bottom: 1em;
+}
+
+#features .section-title {
+    background-color: rgb(82, 82, 82);
+}
+
+#features li {
+    font-size: larger;
+    text-align: left;
+    padding-left: 1em;
+    padding-bottom: 0.3em;
+}
+
+#features ul {
+    list-style: none;
+}
+
+#features ul li:before {
+    content: '✓ ';
+}
+
+.form-check-input {
+    border-color: #9265ce;
+}
+
+.form-check-input:checked {
+    background-color: #9265ce;
+    border-color: #9265ce;
+}
+
+.modal-dialog {
+    font-family: Nunito, sans-serif;
+    color: rgb(82, 82, 82);
+}
+
+.modal-header {
+    background-color: #9265ce;
+    color: white;
+}
+
+.modal-footer {
+    background-color: rgb(253, 233, 255);
+}
+
+.btn-close {
+    color: white;
+}
+
+.form-label {
+    color: #9265ce;
+}
+
+.old-price {
+    text-decoration: line-through;
+    font-size: x-large;
+    color: darkgray;
+}
+
+.new-price {
+    font-size: xx-large;
+    color: black;
+}
+
+.comment {
+    font-size: small;
+    color: darkgray;
+}
+
+.btn {
+    margin: auto;
+    max-width: fit-content;
+}
+
+.btn-dark {
+    background-color: #9265ce;
+}
+
+.btn-dark:hover {
+    background-color: purple;
+}
+
+.g-recaptcha > div{
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.img-responsive{
+    display: block; 
+    max-width: 100%; 
+    height: auto;
+}

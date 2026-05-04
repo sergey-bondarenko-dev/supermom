@@ -1,0 +1,62 @@
+@use "../helpers" as *;
+
+.new-year {
+    &__title {
+        text-align: center;
+    }
+
+    &__subtitle {
+        text-align: center;
+    }
+
+    &__posters {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        
+    }
+
+    &__poster {
+        border-radius: var(--border-radius-xxl);
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        flex-basis: calc(50% - 30px);
+
+        @include tablet {
+            flex-basis: 100%;
+        }
+        
+        background-color: rgba(0, 0, 0, 0.03);
+
+        &-image {
+            width: 100%;
+        }
+
+        &-body {
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+            height: 100%;
+            padding-top: 0;
+        }
+
+        &-content {
+            flex-grow: 1;
+        }
+    }
+
+    &__button {
+        margin-top: 2rem;
+    }
+
+    &__call {
+        margin-top: 2rem;
+        text-align: center;
+        font-weight: 800;
+    }
+}
