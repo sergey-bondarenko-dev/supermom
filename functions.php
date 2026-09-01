@@ -1,6 +1,7 @@
 <?php
 
-require_once 'tg.php';
+require_once __DIR__ . '/tg.php';
+require_once __DIR__ . '/config.php';
 
 add_action('wp_enqueue_scripts', 'theme_add_scripts');
 
@@ -497,7 +498,7 @@ class FormContainer
 function send2alfa($dataAlfa)
 {
     $ch = curl_init();
-    $dataA = ['email' => 'info@supermomekb.ru', 'api_key' => 'REMOVED_ALFACRM_API_KEY'];
+    $dataA = ['email' => theme_env('ALFACRM_EMAIL'), 'api_key' => theme_env('ALFACRM_API_KEY')];
 
     curl_setopt($ch, CURLOPT_HTTPHEADER, ['Accept: application/json', 'Content-Type: application/json']);
     curl_setopt($ch, CURLOPT_URL, 'https://supermom.s20.online/v2api/auth/login');
@@ -542,8 +543,8 @@ function sendTg($message)
 {
 
     $bot = new Telegram_Bot();
-    $bot->botid('REMOVED_TELEGRAM_TOKEN')
-        ->chatid('-4234178871')
+    $bot->botid(theme_env('TELEGRAM_BOT_TOKEN'))
+        ->chatid(theme_env('TELEGRAM_CHAT_ID'))
         ->operation('sendMessage')
         ->message($message)
         ->execute();

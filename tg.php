@@ -64,7 +64,7 @@ class Telegram_Bot
 
         $log = [
             'time' => date('Y-m-d H:i:s'),
-            'url' => $url,
+            'operation' => $this->_operation,
             'post_fields' => $postFields,
             'response' => $response,
             'error' => $error
